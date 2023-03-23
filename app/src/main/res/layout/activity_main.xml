@@ -45,11 +45,10 @@
 
     <Button
         android:id="@+id/sm"
-        android:layout_width="158dp"
+        android:layout_width="138dp"
         android:layout_height="41dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="30dp"
         android:onClick="soma"
         android:text="Somar"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -61,11 +60,12 @@
 
     <Button
         android:id="@+id/dv"
-        android:layout_width="158dp"
+        android:layout_width="138dp"
         android:layout_height="41dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="30dp"
+        android:onClick="dividir"
         android:text="Dividir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -76,11 +76,12 @@
 
     <Button
         android:id="@+id/sb"
-        android:layout_width="158dp"
+        android:layout_width="138dp"
         android:layout_height="41dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="30dp"
+        android:onClick="subtrair"
         android:text="Subtrair"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -91,11 +92,11 @@
 
     <Button
         android:id="@+id/mp"
-        android:layout_width="158dp"
+        android:layout_width="138dp"
         android:layout_height="41dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="30dp"
+        android:onClick="multiplicar"
         android:text="Multiplicar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/dv"
@@ -111,7 +112,7 @@
         android:background="#FFFFFF"
         android:text="Resultado aparece aqui"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

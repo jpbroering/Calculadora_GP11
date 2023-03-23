@@ -20,9 +20,27 @@ public class MainActivity extends AppCompatActivity {
         result = findViewById(R.id.result);
     }
     public void soma(View v){
+    int nu1 = Integer.parseInt(n1.getText().toString());
+    int nu2 = Integer.parseInt(n2.getText().toString());
+    int tl = nu1+nu2;
+    result.setText(tl+"");
+    }
+    public void subtrair(View v){
         int nu1 = Integer.parseInt(n1.getText().toString());
         int nu2 = Integer.parseInt(n2.getText().toString());
-        int tl = nu1+nu2;
-        result.setText(tl);
+        int tl = nu1-nu2;
+        result.setText(tl+"");
+    }
+    public void dividir(View v){
+        int nu1 = Integer.parseInt(n1.getText().toString());
+        int nu2 = Integer.parseInt(n2.getText().toString());
+        int tl = nu1/nu2;
+        result.setText(tl+"");
+    }
+    public void multiplicar(View v){
+        int nu1 = Integer.parseInt(n1.getText().toString());
+        int nu2 = Integer.parseInt(n2.getText().toString());
+        int tl = nu1*nu2;
+        result.setText(tl+"");
     }
 }
